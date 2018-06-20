@@ -5,14 +5,14 @@ Example code for Surplus LCD (BinarySpace)
 
 # Pinout
 
-1 - MOSI
-2 - SCK
-3 - LCD STB
-4 - LCD Reset
-5 - VCC (3.3v - 5v)
-6 - GND
-7 - LED+ (Crappy Backlight) 
-8 - LED- (Crappy Backlight) 
+1 - MOSI  
+2 - SCK  
+3 - LCD STB  
+4 - LCD Reset  
+5 - VCC (3.3v - 5v)  
+6 - GND  
+7 - LED+ (Crappy Backlight)  
+8 - LED- (Crappy Backlight)  
 
 # Contrast
 
