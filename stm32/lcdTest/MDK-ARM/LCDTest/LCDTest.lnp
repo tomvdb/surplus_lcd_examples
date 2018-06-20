@@ -1,0 +1,28 @@
+--cpu Cortex-M0
+"lcdtest\stm32f0xx_hal_rcc.o"
+"lcdtest\stm32f0xx_hal_rcc_ex.o"
+"lcdtest\stm32f0xx_hal_flash_ex.o"
+"lcdtest\stm32f0xx_hal.o"
+"lcdtest\stm32f0xx_hal_gpio.o"
+"lcdtest\stm32f0xx_hal_flash.o"
+"lcdtest\stm32f0xx_hal_spi.o"
+"lcdtest\stm32f0xx_hal_pwr_ex.o"
+"lcdtest\stm32f0xx_hal_spi_ex.o"
+"lcdtest\stm32f0xx_hal_pcd.o"
+"lcdtest\stm32f0xx_hal_pwr.o"
+"lcdtest\stm32f0xx_hal_tim_ex.o"
+"lcdtest\stm32f0xx_hal_dma.o"
+"lcdtest\stm32f0xx_hal_tim.o"
+"lcdtest\stm32f0xx_hal_i2c_ex.o"
+"lcdtest\stm32f0xx_hal_cortex.o"
+"lcdtest\stm32f0xx_hal_pcd_ex.o"
+"lcdtest\stm32f0xx_hal_i2c.o"
+"lcdtest\system_stm32f0xx.o"
+"lcdtest\startup_stm32f042x6.o"
+"lcdtest\stm32f0xx_hal_msp.o"
+"lcdtest\stm32f0xx_it.o"
+"lcdtest\main.o"
+--library_type=microlib --strict --scatter "LCDTest\LCDTest.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "LCDTest.map" -o LCDTest\LCDTest.axf
